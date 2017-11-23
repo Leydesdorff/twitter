@@ -4,9 +4,141 @@
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
 <title>semantic maps of tweets</title>
+<style id=dynCom>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Footnote Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FootnoteTextChar
+	{mso-style-name:"Footnote Text Char";
+	mso-style-link:"Footnote Text";
+	font-family:"Arial",sans-serif;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Arial",sans-serif;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma",sans-serif;}
+p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
+	{mso-style-name:msolistparagraphcxspfirst;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
+	{mso-style-name:msolistparagraphcxspmiddle;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
+	{mso-style-name:msolistparagraphcxsplast;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.UnresolvedMention1
+	{mso-style-name:"Unresolved Mention1";
+	color:gray;
+	background:#E6E6E6;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
 
-<style id="dynCom" type="text/css"><!-- --></style>
-<script language="JavaScript"><!--
+<script language="JavaScript">
+<!--
 function msoCommentShow(anchor_id, com_id)
 {
 	if(msoBrowserCheck()) 
@@ -79,148 +211,8 @@ if (msoBrowserCheck())
 	document.styleSheets.dynCom.addRule(".msocomtxt","padding: 3pt 3pt 3pt 3pt");
 	document.styleSheets.dynCom.addRule(".msocomtxt","z-index: 100");
 }
-// --></script>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;}
-p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
-	{mso-style-link:"Footnote Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;}
-p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
-	{mso-style-link:"Comment Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;}
-span.MsoFootnoteReference
-	{vertical-align:super;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p
-	{margin-right:0in;
-	margin-left:0in;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;}
-p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
-	{mso-style-link:"Comment Subject Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;
-	font-weight:bold;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma",sans-serif;}
-span.MsoPlaceholderText
-	{color:gray;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;}
-p.msonormal0, li.msonormal0, div.msonormal0
-	{mso-style-name:msonormal;
-	margin-right:0in;
-	margin-left:0in;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;}
-span.FootnoteTextChar
-	{mso-style-name:"Footnote Text Char";
-	mso-style-link:"Footnote Text";
-	font-family:"Arial",sans-serif;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-link:"Balloon Text";
-	font-family:"Tahoma",sans-serif;}
-p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
-	{mso-style-name:msolistparagraphcxspfirst;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;}
-p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
-	{mso-style-name:msolistparagraphcxspmiddle;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;}
-p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
-	{mso-style-name:msolistparagraphcxsplast;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;}
-p.msochpdefault, li.msochpdefault, div.msochpdefault
-	{mso-style-name:msochpdefault;
-	margin-right:0in;
-	margin-left:0in;
-	font-size:10.0pt;
-	font-family:"Times New Roman",serif;}
-span.UnresolvedMention1
-	{mso-style-name:"Unresolved Mention1";
-	color:gray;
-	background:#E6E6E6;}
-span.CommentTextChar
-	{mso-style-name:"Comment Text Char";
-	mso-style-link:"Comment Text";
-	font-family:"Arial",sans-serif;}
-span.CommentSubjectChar
-	{mso-style-name:"Comment Subject Char";
-	mso-style-link:"Comment Subject";
-	font-family:"Arial",sans-serif;
-	font-weight:bold;}
-.MsoChpDefault
-	{font-size:10.0pt;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.25in 1.0in 1.25in;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
-
+// -->
+</script>
 </head>
 
 <body bgcolor="#FCECC7" lang=EN-US link=blue vlink=purple>
@@ -267,6 +259,14 @@ Semantic Maps (Co-Word Analysis) of Tweets</b></a></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'>Hellsten,
+Iina, &amp; Leydesdorff, Loet (in preparation). Automated Analysis of
+Topic-Actor Networks on Twitter: New approach to the analysis of socio-semantic
+networks, at <a href="https://arxiv.org/abs/1711.08387">https://arxiv.org/abs/1711.08387</a>.</span><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt'>&nbsp;</span></p>
+
 <p class=MsoNormal>TWEET.exe generates a word-document occurrence matrix, a
 word co-occurrence matrix, and (if so wished) a normalized co-occurrence matrix
 from a set of lines (tweets) and a word list. The output files can be read into
@@ -276,9 +276,10 @@ and the visualization. </p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>TWEET.exe is derived and adapted from <a
-href="http://www.leydesdorff.net/ti/index.htm">TI.exe</a>; that can be used to generate
-semantic co-word maps. A version of this latter program adapted for the Korean
-character set is available at <a href="http://www.leydesdorff.net/krkwic">http://www.leydesdorff.net/krkwic</a>
+href="http://www.leydesdorff.net/ti/index.htm">TI.exe</a>; that can be used to
+generate semantic co-word maps. A version of this latter program adapted for
+the Korean character set is available at <a
+href="http://www.leydesdorff.net/krkwic">http://www.leydesdorff.net/krkwic</a>
 . A version for Chinese is available at <a
 href="http://www.leydesdorff.net/software/Chinese/index.htm">http://www.leydesdorff.net/software/Chinese/index.htm</a>.
 For languages using the Latin alphabet, one is advised to use tweet.exe and not
@@ -292,11 +293,11 @@ ti.exe; and analogously FrqTwt.exe and not FrqList.exe.</p>
 
 <p class=MsoNormal>The program needs two informations, notably, (a) the name of
 the file “words.txt” that contains the words (as variables) in ASCII format and
-(b) a file “text.txt” in which each line provides a textual unit of analysis (e.g.,
-a tweet). The number of lines is unlimited, but each line can at the maximum
-contain 4000 characters. Each line has to be ended with a hard carriage return
-(CR + LF). Save the file as plain text with CR/LF in Word or in an ASCII editor
-such as Notepad.</p>
+(b) a file “text.txt” in which each line provides a textual unit of analysis
+(e.g., a tweet). The number of lines is unlimited, but each line can at the
+maximum contain 4000 characters. Each line has to be ended with a hard carriage
+return (CR + LF). Save the file as plain text with CR/LF in Word or in an ASCII
+editor such as Notepad.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -309,16 +310,18 @@ text with CR/LF or use an ASCII editor (Notepad) for saving the file.)</p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-12.0pt;margin-left:.25in;text-indent:-.25in'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>One can build a word frequency list with <a
+12.0pt;margin-left:.25in;text-indent:-.25in'>•<span style='font-size:7.0pt;
+font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>One
+can build a word frequency list with <a
 href="http://www.leydesdorff.net/software/twitter/frqtwt.exe">Frqtwt.Exe</a>.
-This program reads &lt;text.txt&gt; and allows for the specification of a stopword
-list in &lt;<a href="http://www.leydesdorff.net/software/ti/stopword.txt">stopword.txt</a>&gt;.
+This program reads &lt;text.txt&gt; and allows for the specification of a
+stopword list in &lt;<a
+href="http://www.leydesdorff.net/software/ti/stopword.txt">stopword.txt</a>&gt;.
 The results are provided as uppercase in the file &lt;wrdfrq.txt </p>
 
 <p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
-href="http://www.leydesdorff.net/software/ti/stopword.txt">Stopword.txt</a>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="http://www.leydesdorff.net/software/ti/stopword.txt">Stopword.txt</a>
 contains 429 stopwords (available at <a
 href="http://www.lextek.com/manuals/onix/stopwords1.html">http://www.lextek.com/manuals/onix/stopwords1.html</a>).
 Both list—the lists of words and stopwords—have to be available in the same
@@ -329,13 +332,14 @@ available, these words will not be included.</p>
 <p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
 
 <p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><a href="http://www.leydesdorff.net/software/twitter/tweet.exe">Tweet.exe</a>
-runs in a DOS-type Command Box under Windows. The program and the input files—text.txt
-and words.txt—have to be placed in the same folder. The output files are
-written into this directory as well. Please, note that existing files from a
-previous run are overwritten by the program. Save output elsewhere if you wish
-to continue with the materials. </p>
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;font-family:
+"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
+href="http://www.leydesdorff.net/software/twitter/tweet.exe">Tweet.exe</a> runs
+in a DOS-type Command Box under Windows. The program and the input
+files—text.txt and words.txt—have to be placed in the same folder. The output
+files are written into this directory as well. Please, note that existing files
+from a previous run are overwritten by the program. Save output elsewhere if
+you wish to continue with the materials. </p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -345,8 +349,8 @@ to continue with the materials. </p>
 
 <p class=MsoNormal>The program produces three output files. Matrix.txt can be
 read into Excel and/or SPSS for further processing. Two files with the
-extension “.dat” are in DL-format (ASCII) and can be read into Pajek or UCInet for
-network analysis and visualization. (Pajek is freely available at
+extension “.dat” are in DL-format (ASCII) and can be read into Pajek or UCInet
+for network analysis and visualization. (Pajek is freely available at
 http://mrvar.fdv.uni-lj.si/pajek/ ).</p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -359,9 +363,9 @@ and run <i>labels.sps</i> thereafter. </p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>The matrix is asymmetrical: it contains the words as the
-variables and the tweets as the cases. In other words, each row represents a tweet
-in the sequential order of the text numbering, and each column represents a
-word in the sequential order of the word list. (One may wish to sort the word
+variables and the tweets as the cases. In other words, each row represents a
+tweet in the sequential order of the text numbering, and each column represents
+a word in the sequential order of the word list. (One may wish to sort the word
 list alphabetically before the analysis.) The words are counted as frequencies
 with +1 for each occurrence. </p>
 
@@ -369,24 +373,23 @@ with +1 for each occurrence. </p>
 
 <p class=MsoNormal>b. <i>coocc.dat </i>contains a co-occurrence matrix of the
 words from this same data. This matrix is symmetrical and it contains the words
-both as variables and as row labels. The main diagonal is set to zero. The
-number of co-occurrences is equal to the multiplication of occurrences in each
-of the texts. (The procedure is similar to the routine “affiliations” in UCInet,
-but the main diagonal is here set to zero in this matrix.) The file <i>coocc.dat
-</i>contains this information in the DL-format that can be read by Pajek or
-UCInet.</p>
+both as variables and as row labels. The main diagonal is set to zero. The number
+of co-occurrences is equal to the multiplication of occurrences in each of the
+texts. (The procedure is similar to the routine “affiliations” in UCInet, but
+the main diagonal is here set to zero in this matrix.) The file <i>coocc.dat </i>contains
+this information in the DL-format that can be read by Pajek or UCInet.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>c. Optionally: <i>cosine.dat </i>contains a cosine-normalized
-co-occurrence matrix of the words in the same data. Normalization is based on
-the cosine between the variables conceptualized as vectors (Salton &amp;
-McGill, 1983). (The procedure is similar to using the file matrix.txt as input
-to the routine Proximity in SPSS.) The file <i>cosine.dat</i> contains this
-information in the Pajek-format. The size of the nodes is equal to the
-logarithm of the occurrences of the respective word; this feature can be turned
-on in Pajek. Tweet.exe can be stopped after running coocc.dbf and coocc.dat if
-one does not need the cosines.</p>
+<p class=MsoNormal>c. Optionally: <i>cosine.dat </i>contains a
+cosine-normalized co-occurrence matrix of the words in the same data.
+Normalization is based on the cosine between the variables conceptualized as
+vectors (Salton &amp; McGill, 1983). (The procedure is similar to using the
+file matrix.txt as input to the routine Proximity in SPSS.) The file <i>cosine.dat</i>
+contains this information in the Pajek-format. The size of the nodes is equal
+to the logarithm of the occurrences of the respective word; this feature can be
+turned on in Pajek. Tweet.exe can be stopped after running coocc.dbf and
+coocc.dat if one does not need the cosines.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -402,34 +405,34 @@ of these normalizations, the routine generates always the file words.dbf
 containing the following informations:</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
-variable named “Residual” which provides the standardized residuals to the
-chi-square for each of the variables; these are defined for <i>word<sub>i</sub></i>
-as <i>Z</i><sub>i</sub> = (Observed<sub>ij</sub> – Expected<sub>ij</sub>) /
-&#8730;Expected<sub>in</sub>. This value can be used for testing the
-significance of individual words in the set if the expected value is larger
-than five; </p>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>A variable named “Residual” which provides the standardized residuals to
+the chi-square for each of the variables; these are defined for <i>word<sub>i</sub></i>
+as <i>Z</i><sub>i</sub> = (Observed<sub>ij</sub> – Expected<sub>ij</sub>) / &#8730;Expected<sub>in</sub>.
+This value can be used for testing the significance of individual words in the
+set if the expected value is larger than five; </p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
-variable named “Obs_Exp” which provides the sum of |Observed – Expected| for
-the word as a variable summed over the column;</p>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>A variable named “Obs_Exp” which provides the sum of |Observed –
+Expected| for the word as a variable summed over the column;</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
-variable named “ObsExp” which provides the Obs/Exp ratios for the word as
-variable summed over the column;</p>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>A variable named “ObsExp” which provides the Obs/Exp ratios for the word
+as variable summed over the column;</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
-variable named “TfIdf” (that is, Term Frequency * Inverse Document Frequency)
-defined as follows: Tf-Idf = FREQ<sub>ik</sub> * [log<sub>2</sub> (n / DOCFREQ<sub>k</sub>)].
-This function assigns a high degree of importance to terms occurring in only a
-few documents in the collection (Salton &amp; McGill, 1983, p. 63);</p>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>A variable named “TfIdf” (that is, Term Frequency * Inverse Document
+Frequency) defined as follows: Tf-Idf = FREQ<sub>ik</sub> * [log<sub>2</sub> (n
+/ DOCFREQ<sub>k</sub>)]. This function assigns a high degree of importance to
+terms occurring in only a few documents in the collection (Salton &amp; McGill,
+1983, p. 63);</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>•<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
-word frequency within the set. </p>
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>The word frequency within the set. </p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -449,10 +452,10 @@ observed and expected values at the cell level. (These are the
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>The corresponding Pajek files can be generated by replacing
-the matrix values in cos_oe.dat with, for example, the cosine values of
-TfIdf.dbf. (Cosine values can be generated in SPSS under Analyze &gt; Correlate
-&gt; Proximity.) Or one can replace the non-normalized values directly in
+<p class=MsoNormal>The corresponding Pajek files can be generated by replacing the
+matrix values in cos_oe.dat with, for example, the cosine values of TfIdf.dbf.
+(Cosine values can be generated in SPSS under Analyze &gt; Correlate &gt;
+Proximity.) Or one can replace the non-normalized values directly in
 coocc_oe.dat. Note that the number of cases can be different using the later
 routine (of obs/exp) because rows with no values other than zero are removed in
 order to prevent divisions by zero in the computation. </p>
@@ -478,11 +481,15 @@ href="http://www.leydesdorff.net/">return to home page</a></p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>&nbsp;</p>
 
-</div>
-
 <div>
 
-<hr class=msocomoff align=left size=1 width="33%">
+<div class=MsoNormal><span style='font-family:"Times New Roman",serif'>
+
+<hr size=1 width="33%" align=left>
+
+</span></div>
+
+</div>
 
 </div>
 
